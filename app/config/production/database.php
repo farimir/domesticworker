@@ -5,6 +5,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => $_SERVER['DB2_HOST'],
+			'port'	 	=> $_SERVER['DB2_PORT'],
 			'database'  => $_SERVER['DB2_NAME'],
 			'username'  => $_SERVER['DB2_USER'],
 			'password'  => $_SERVER['DB2_PASS'],
